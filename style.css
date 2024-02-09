@@ -1,0 +1,140 @@
+ @font-face {
+    font-family:'Alo Font' ;
+    src: url(./font/MAROLA__.TTF);
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+    padding: 0.1px;
+    text-align: center;
+    background-image: url(./asset/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del contenedor a columna */
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 250px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family:'Alo Font' ;
+    text-align: center;
+   
+}
+
+.slogan {
+    font-size: 20px;
+    margin: auto;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+.contenedor {
+    list-style: none;
+    display: flex;
+}
+
+
+.item {
+    margin: 0 150px;
+   
+}
+
+.galeria {
+    width: 100%;
+    height: 600px;
+    background-color: black ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.box1 {
+    background-image: url(./asset/estudio3.jpg);
+}
+
+.box2 {
+    background-image: url(./asset/estudio2.jpg);
+}
+
+.box3 {
+    background-image: url(./asset/estudio1.jpg);
+}
+
+.crop {
+    text-align:center;
+    color: #fff;
+    font-size: 45px;
+    margin-top: auto;
+}
+
+.titulo2 {
+    width: 100%;
+    height: 115px;
+    background-color:burlywood;
+}
+
+.nuevacoleccion {
+    text-align: center;
+    font-size: 100px;
+}
+
+.galeria2 {
+    width: 100%;
+    height: 600px;
+    background-color: black ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box4 {
+    background-image: url(./asset/model1.jpg); 
+}
+
+.box5 {
+    background-image: url(./asset/model2.jpg);
+}
+
+.box6 {
+    background-image: url(./asset/model3.jpg); 
+}
+
+
